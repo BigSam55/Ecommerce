@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { LiaOpencart } from "react-icons/lia";
 import { useSession } from "next-auth/react";
+import "../globals.css"
 
 export default function Footer() {
   const { data: session, status } = useSession();

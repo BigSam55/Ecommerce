@@ -3,6 +3,7 @@ import {signIn, signOut, useSession } from "next-auth/react";
 import { Fragment, useState, useContext } from "react";
 import { LiaOpencart } from "react-icons/lia";
 import { CartProvider } from "@/Components/CartContext/cart";
+import "../globals.css"
 import {
   Dialog,
   DialogPanel,
