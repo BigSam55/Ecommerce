@@ -4,7 +4,7 @@ import { useSession } from "next-auth/react";
 import DiscountDisplay from "@/Components/discount/page";
 import ProductDisplay from "@/Components/products/page";
 import HeroPage from "@/Components/heropage/page";
-import "../globals.css"
+import "./globals.css";
 
 export default function Home() {
   const session = useSession();
